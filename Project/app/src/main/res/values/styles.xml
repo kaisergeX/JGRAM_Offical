@@ -1,0 +1,154 @@
+<resources>
+
+<!--    splash-->
+    <style name="SplashscreenTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowBackground">@drawable/splashbackground</item>
+    </style>
+
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+
+        <item name="android:windowLightStatusBar">true</item>
+
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/trans</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:fontFamily">@font/opensansregular</item>
+        <item name="android:textColor">#707070</item>
+        <!--        <item name="android:background">@color/trans</item>-->
+        <item name="textAppearanceHeadline1">@style/TextAppearance.MaterialComponents.Headline1
+        </item>
+        <item name="textAppearanceHeadline2">@style/TextAppearance.MaterialComponents.Headline2
+        </item>
+        <item name="textAppearanceHeadline3">@style/TextAppearance.MaterialComponents.Headline3
+        </item>
+        <item name="textAppearanceHeadline4">@style/TextAppearance.MaterialComponents.Headline4
+        </item>
+        <item name="textAppearanceHeadline5">@style/TextAppearance.MaterialComponents.Headline5
+        </item>
+        <item name="textAppearanceHeadline6">@style/TextAppearance.MaterialComponents.Headline6
+        </item>
+        <item name="textAppearanceSubtitle1">@style/TextAppearance.MaterialComponents.Subtitle1
+        </item>
+        <item name="textAppearanceSubtitle2">@style/TextAppearance.MaterialComponents.Subtitle2
+        </item>
+        <item name="textAppearanceBody1">@style/TextAppearance.MaterialComponents.Body1</item>
+        <item name="textAppearanceBody2">@style/TextAppearance.MaterialComponents.Body2</item>
+        <item name="textAppearanceCaption">@style/TextAppearance.MaterialComponents.Caption</item>
+        <item name="textAppearanceButton">@style/TextAppearance.MaterialComponents.Button</item>
+        <item name="textAppearanceOverline">@style/TextAppearance.MaterialComponents.Overline</item>
+    </style>
+
+    <style name="NoActionBar" parent="AppTheme">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="screenTittle" parent="Widget.AppCompat.TextView">
+        <item name="android:textSize">30sp</item>
+    </style>
+
+    <style name="bigText" parent="Widget.AppCompat.TextView">
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="smallText" parent="Widget.AppCompat.TextView">
+        <item name="android:textSize">14sp</item>
+    </style>
+
+
+    <style name="filledButton" parent="Widget.MaterialComponents.Button.Icon">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="iconSize">20sp</item>
+        <item name="layout_constraintHeight_default">percent</item>
+        <item name="layout_constraintHeight_percent">0.08</item>
+        <item name="android:textSize">11sp</item>
+        <item name="layout_constraintWidth_default">percent</item>
+        <item name="layout_constraintWidth_percent">0.6</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="facebookButon">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="layout_constraintHeight_default">percent</item>
+        <item name="layout_constraintHeight_percent">0.08</item>
+        <item name="layout_constraintWidth_default">percent</item>
+        <item name="layout_constraintWidth_percent">0.6</item>
+    </style>
+
+    <style name="textButton" parent="Widget.MaterialComponents.Button.TextButton">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="iconSize">20sp</item>
+        <item name="layout_constraintHeight_default">percent</item>
+        <item name="layout_constraintHeight_percent">0.08</item>
+        <item name="android:textSize">11sp</item>
+        <item name="layout_constraintWidth_default">percent</item>
+        <item name="layout_constraintWidth_percent">0.6</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="outlineBtn" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="iconSize">20sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/mainBackground</item>
+        <item name="android:textSize">11dp</item>
+        <item name="layout_constraintHeight_default">percent</item>
+        <item name="layout_constraintHeight_percent">0.07</item>
+        <item name="layout_constraintWidth_default">percent</item>
+        <item name="layout_constraintWidth_percent">0.8</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="outlineBtnSetting" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="iconSize">20sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/mainBackground</item>
+        <item name="android:textSize">11dp</item>
+        <item name="layout_constraintHeight_default">percent</item>
+        <item name="layout_constraintHeight_percent">0.07</item>
+        <item name="layout_constraintWidth_default">percent</item>
+        <item name="layout_constraintWidth_percent">0.9</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+
+
+    <style name="TextFieldStyle">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">15sp</item>
+        <item name="layout_constraintWidth_default">percent</item>
+        <item name="layout_constraintWidth_percent">0.85</item>
+    </style>
+
+    <style name="mainToolbar">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:background">@color/trans</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="profile_text">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:textSize">13dp</item>
+        <item name="android:paddingStart">5dp</item>
+        <item name="android:background">@color/trans</item>
+        <item name="android:textColor">@color/dardText</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+<!--    <style name="textJGramStyle" parent="TextAppearance.AppCompat.Caption">-->
+<!--        <item name="fontFamily">@font/segoeprb</item>-->
+<!--    </style>-->
+
+</resources>

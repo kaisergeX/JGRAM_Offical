@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#fe6a00</color>
+    <color name="colorPrimaryDark">#fe6a00</color>
+    <color name="colorAccent">#fe6a00</color>
+    <color name="trans">#FFFFFF</color>
+    <color name="mainBackground">#707070</color>
+    <color name="dardText">#FF000000</color>
+    <color name="shimmer">#cfcfcf</color>
+</resources>

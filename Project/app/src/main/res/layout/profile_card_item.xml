@@ -1,0 +1,23 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/out"
+    android:layout_width="match_parent"
+    android:layout_margin="1dp"
+    android:elevation="0.5dp"
+    android:background="@color/trans"
+    android:layout_height="150dp">
+
+
+    <ImageView
+        android:id="@+id/cardImageView"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        app:layout_constraintDimensionRatio="1:1"
+        android:adjustViewBounds="true"
+        android:background="#E0E0E0"
+        android:scaleType="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+         />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">JGram</string>
+    <string name="login">Login</string>
+    <string name="facebook">Login with facebook</string>
+    <string name="signup">SignUp</string>
+
+    <string name="facebook_app_id">790770418025350</string>
+    <string name="fb_login_protocol_scheme">fb790770418025350</string>
+    <!--    <string name="facebook_app_id">459506944674440</string>-->
+    <!--    <string name="fb_login_protocol_scheme">fb459506944674440</string>-->
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

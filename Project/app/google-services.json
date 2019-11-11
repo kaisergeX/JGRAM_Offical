@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "910502831160",
+    "firebase_url": "https://jgram-offical.firebaseio.com",
+    "project_id": "jgram-offical",
+    "storage_bucket": "jgram-offical.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:910502831160:android:0c583132f27370993b32cd",
+        "android_client_info": {
+          "package_name": "com.example.project"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "910502831160-vjagba5v9knokbdacq5533dluh7u16mp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.project",
+            "certificate_hash": "b71c0af4b91c55d24607b2ace141acd5d6393b6f"
+          }
+        },
+        {
+          "client_id": "910502831160-7c0kcau60qsenrs793on0cmovb57ec6s.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.project",
+            "certificate_hash": "7c06700ec3a22fa75df372ef6e119b3ecdc0d5da"
+          }
+        },
+        {
+          "client_id": "910502831160-t2c39qojstllb5dag9t189k5ughoupi2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAjKmxLJjyRb0KK6DL5--eNV3gS2d1R2H8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "910502831160-t2c39qojstllb5dag9t189k5ughoupi2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
